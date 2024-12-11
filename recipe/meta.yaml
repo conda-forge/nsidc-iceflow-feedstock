@@ -1,13 +1,13 @@
 {% set name = "nsidc-iceflow" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nsidc_iceflow-{{ version }}.tar.gz
-  sha256: 1a8c815d6f8a098690c1fd6061033f878fe8cb1edf199b39b60e794ed3a9d158
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nsidc_iceflow-{{ version }}.tar.gz
+  sha256: 3b450b116fd68294037a80f206bd4743bc6b3d4e5c6b450b9afbe874cafc0b67
 
 build:
   noarch: python
