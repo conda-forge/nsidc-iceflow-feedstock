@@ -20,7 +20,7 @@ requirements:
     - hatchling
     - pip
   run:
-    - python >=3.10
+    - python >=3.11
     - numpy >=2.0.1
     - earthaccess >=0.10.0
     - pandas >=2.2
@@ -28,8 +28,11 @@ requirements:
     - gps-timemachine >=1.1.4
     - pyproj >=3.6.1
     - shapely >=2.0.5
-    - pandera >=0.20.3
+    - pandera[mypy] ~=0.23.0
     - pydantic >=2.8.2
+    - loguru >=0.7.2
+    - dask[dataframe] >=2024.10.0
+    - pyyaml >=6.0.2
 
 test:
   imports:
