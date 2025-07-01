@@ -3,7 +3,7 @@ About nsidc-iceflow-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nsidc-iceflow-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/nsidc/iceflow
+Home: https://github.com/nsidc/nsidc-iceflow
 
 Package license: MIT
 
