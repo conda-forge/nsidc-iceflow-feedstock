@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nsidc_iceflow-{{ version }}.tar.gz
-  sha256: 9375521332ec05f35dc6bca52e3318aa98ee64c1cc9ffd6d4c3f52c2f38183ce
+  sha256: 25070e3f1bebdbef17b999ef2fa927a33d19906672936ca08871acccc4335de8
 
 build:
   noarch: python
